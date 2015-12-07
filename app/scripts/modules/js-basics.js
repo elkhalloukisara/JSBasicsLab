@@ -73,7 +73,8 @@
         if (Array.isArray(arr)){
        	   for (var j = 0; j < arr.length; j++) {
        		if (Array.isArray(arr[j])) 
-            	   Somme += JS_BASICS.nestedSum(arr[j]);	            			else if (typeof arr[j] === 'number') 
+            	   Somme += JS_BASICS.nestedSum(arr[j]);	            			
+	   else if (typeof arr[j] === 'number') 
             	   Somme += arr[j];
          		
        	    }
